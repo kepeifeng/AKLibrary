@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		371CE7A51BDA03F700434C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3730AE0B94C79B55256827A4 /* AKLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AKLibrary.podspec; path = ../AKLibrary.podspec; sourceTree = "<group>"; };
 		3D6F56B6CE20C33798E4DE4F /* Pods_AKLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AKLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -48,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		371CE7A41BDA03F700434C27 /* AKLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				371CE7A51BDA03F700434C27 /* Info.plist */,
+			);
+			path = AKLibrary;
+			sourceTree = "<group>";
+		};
 		5C84A620E0AF08B570199470 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +71,7 @@
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F5B5195388D20070C39A /* Tests */,
+				371CE7A41BDA03F700434C27 /* AKLibrary */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				5C84A620E0AF08B570199470 /* Pods */,

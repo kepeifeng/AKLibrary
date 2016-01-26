@@ -15,8 +15,9 @@ Pod::Spec.new do |s|
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
+#   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description      = <<-DESC
+  A personal library for iOS including useful tools.
                        DESC
 
   s.homepage         = "https://github.com/<GITHUB_USERNAME>/AKLibrary"
@@ -26,12 +27,12 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/AKLibrary.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :osx,'10.9'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
-    'AKLibrary' => ['Pod/Assets/*.png']
+#'AKLibrary' => ['Pod/Assets/*.png']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

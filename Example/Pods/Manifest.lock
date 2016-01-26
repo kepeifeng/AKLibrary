@@ -1,0 +1,14 @@
+PODS:
+  - AKLibrary (0.1.0)
+
+DEPENDENCIES:
+  - AKLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  AKLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AKLibrary: ad5798714eb3d0f507d8b003fb0e356a5cbd1025
+
+COCOAPODS: 0.39.0

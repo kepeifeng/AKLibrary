@@ -1,0 +1,6 @@
+framework module Pods_AKLibrary_Tests {
+  umbrella header "Pods-AKLibrary_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
